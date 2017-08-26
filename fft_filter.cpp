@@ -238,7 +238,7 @@ int main()
 
     // Find the maxim value in array
 	maxCh0 = findMax(ROIch0Red,onSetUH - onSetUL + 1 - winSize);
-	maxCh1 = findMax(ROIch1Red,onSetUH - onSetUL + 1 - winSize);
+	double maxCh1 = findMax(ROIch1Red,onSetUH - onSetUL + 1 - winSize);
 		
     // Scale change to [0,1]
 	for(std::size_t i = 0; i < onSetUH - onSetUL + 1 - winSize; i++)
