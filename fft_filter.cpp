@@ -122,7 +122,7 @@ int main()
     string line; 	// Buffer for reading a line in .dat file
     string temp;	// Buffer for an extracted value in 'line'
 
-    ifile.open("sample.dat");
+    ifile.open("Measurement_1.dat");
     if (ifile.is_open())
     {
     	for(std::size_t i = 0; i < SIZE; i++)
