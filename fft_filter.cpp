@@ -152,8 +152,8 @@ int main()
 	const Aquila::FrequencyType sampleFreq = 200000;	// sampling freq. [Hz]
 	const Aquila::FrequencyType df = 2000;				// delta_f
 
-	const Aquila::FrequencyType f1_n1 = 32000;		    // Transmitter's freq. [Hz]
-	const Aquila::FrequencyType f1_n2 = 64000;		    // second harmonic of 'f1_n1'
+	const Aquila::FrequencyType f1_n1 = 38000;		    // Transmitter's freq. [Hz]
+	const Aquila::FrequencyType f1_n2 = 76000;		    // second harmonic of 'f1_n1'
 
 	const Aquila::FrequencyType f1_n1_L = f1_n1 - df;	// Lower freq. of pass-band_1
 	const Aquila::FrequencyType f1_n1_H = f1_n1 + df;	// Upper freq. of pass-band_1
@@ -200,7 +200,7 @@ int main()
 	}
 		
     // Find a location of an onset very roughly
-	std::size_t onSetU = findOnset(ch0, SIZE, 0.9);	// Onset position (ch0)
+	std::size_t onSetU = findOnset(ch0, SIZE, 0.8);	// Onset position (ch0)
 	std::size_t onSetUL = onSetU - 1000;			// '1000' seems suitable for fs = 200k
 	std::size_t onSetUH = onSetU + 1000;
 		
