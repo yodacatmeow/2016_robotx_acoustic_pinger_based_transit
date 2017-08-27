@@ -1,1 +1,1 @@
-# robotx2016_acoustic_pinger_transit
+# 2016 RobotX Acoustic Pinger-based Transit Task
