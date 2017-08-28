@@ -1,1 +1,7 @@
-# 2016 RobotX Acoustic Pinger-based Transit Task
+# C++ version
+
+## Description
+
+## Usage
+- First, you need to install "cmake" 
+
