@@ -1,6 +1,7 @@
 # C++ version
 
-## Description
+## Descriptions
+- 
 - The following processes were tested on the debian 7.9 on the Beaglebone Black (Texas Instruments) also on the Ubuntu 16.04 on Macbook Pro 2016
 
 ## Usage
@@ -30,8 +31,5 @@ sudo make
 sudo make install
 ```
 - For testing the code, substitute "aquila/aquila-master/example/fft_filter.cpp" with "[cpp_ver/fft_filter.cpp](https://github.com/snuuwal/2016_robotx_acoustic_pinger_based_transit/blob/master/cpp_ver/fft_filter.cpp)" in this repository
-- Return to "aquila/aquila-build" and type
-
-```
-sudo make examples
-```
+- Return to "aquila/aquila-build" and type ```sudo make examples``` which builds our code
+- The result is in the "aquila/aquila-build/fft_filter/" in the form of excutable file (file name: fft_filter)
