@@ -256,14 +256,16 @@ int main()
 	double TDoA  = (double) onSet1 - (double) onSet0;
 
     // Saturation
-	if(TDoA < -206)	    //Lower saturation (@ 200 kHz, d = 1.55)
+    /*
+	if(TDoA < -206)            // Lower saturation (@ 200 kHz, d = 1.55)
 	{TDoA0 = -206;}
-	else if(TDoA > 206)	//Upper saturation (@ 200 kHz, d = 1.55)
+	else if(TDoA > 206)	   // Upper saturation (@ 200 kHz, d = 1.55)
 	{TDoA0 = 206;}
 	else if(TDoA == 0)
 	{TDoA0 = 1;}
 	else
 	{TDoA0 = TDoA;}
+    */
 
     // Print 'TDoA0'
 	cout << TDoA0;
