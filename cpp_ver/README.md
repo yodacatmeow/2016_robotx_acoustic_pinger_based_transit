@@ -1,7 +1,8 @@
 # C++ version
 
 ## Descriptions
-- This code calculated time difference of arrival (TDOA) (unit: sample) between two receiver channels
+- This code calculates time difference of arrival (TDOA) (unit: sample) between two receiver channels
+- It was used for 2016 RobotX acoustic pinger-based transit task
 - The following processes were tested on the debian 7.9 on the Beaglebone Black (Texas Instruments) also on the Ubuntu 16.04 on Macbook Pro 2016
 
 ## Usage
