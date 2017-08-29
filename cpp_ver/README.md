@@ -40,4 +40,4 @@ sudo make install
 sudo ./fft_filter
 ```
 - It will return -151 which is TDOA (unit: sample) between two receiver channels
-- You can test with the other sample "[data/Measurement_1.dat](https://github.com/snuuwal/2016_robotx_acoustic_pinger_based_transit/blob/master/data/Measurement_2.dat)". It will return TDOA of -54
+- You can test with the other sample "[data/Measurement_1.dat](https://github.com/snuuwal/2016_robotx_acoustic_pinger_based_transit/blob/master/data/Measurement_2.dat)". It will return TDOA of -54 
