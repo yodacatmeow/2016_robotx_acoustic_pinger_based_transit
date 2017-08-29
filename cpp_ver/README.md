@@ -22,11 +22,11 @@ aquila
    |-- aquila-master
 ```
 
-Go to "aquila/aquila-build" and type
+- Go to "aquila/aquila-build" and type
 
 ```
 sudo cmake ../aquila-master
 sudo make
 sudo make install
 ```
-For testing the code, substitute "aquila/aquila-master/example/fft_filter.cpp" with "[cpp_ver/fft_filter.cpp](https://github.com/snuuwal/2016_robotx_acoustic_pinger_based_transit/blob/master/cpp_ver/fft_filter.cpp)" in this repository
+- For testing the code, substitute "aquila/aquila-master/example/fft_filter.cpp" with "[cpp_ver/fft_filter.cpp](https://github.com/snuuwal/2016_robotx_acoustic_pinger_based_transit/blob/master/cpp_ver/fft_filter.cpp)" in this repository
