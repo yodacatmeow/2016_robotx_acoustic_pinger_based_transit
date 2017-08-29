@@ -1,7 +1,7 @@
 # C++ version
 
 ## Descriptions
-- ...
+- This code calculated time difference of arrival (TDOA) (unit: sample) between two receiver channels
 - The following processes were tested on the debian 7.9 on the Beaglebone Black (Texas Instruments) also on the Ubuntu 16.04 on Macbook Pro 2016
 
 ## Usage
@@ -39,3 +39,4 @@ sudo make install
 ```
 sudo ./fft_filter
 ```
+- It will return -151 which is TDOA (unit: sample) between two receiver channels
