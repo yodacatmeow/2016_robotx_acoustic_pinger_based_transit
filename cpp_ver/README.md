@@ -33,3 +33,5 @@ sudo make install
 - For testing the code, substitute "aquila/aquila-master/example/fft_filter.cpp" with "[cpp_ver/fft_filter.cpp](https://github.com/snuuwal/2016_robotx_acoustic_pinger_based_transit/blob/master/cpp_ver/fft_filter.cpp)" in this repository
 - Return to "aquila/aquila-build" and type ```sudo make examples``` which builds our code
 - The result is in the "aquila/aquila-build/fft_filter/" in the form of excutable file (file name: fft_filter)
+- Copy the excutable file to wherever you want, for example "/home/Desktop/test_folder"
+- Copy "[data/Measurement_1.dat](https://github.com/snuuwal/2016_robotx_acoustic_pinger_based_transit/blob/master/data/Measurement_1.dat)" into "test_folder"
