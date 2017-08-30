@@ -2,5 +2,5 @@
 Updating...
 
 ## Versions
-- [With C++](https://github.com/snuuwal/2016_robotx_acoustic_pinger_based_transit/tree/master/cpp_ver)
-- [With Python](https://github.com/snuuwal/2016_robotx_acoustic_pinger_based_transit/tree/master/python_ver) (to be updated...)
+- [C++](https://github.com/snuuwal/2016_robotx_acoustic_pinger_based_transit/tree/master/cpp_ver)
+- [Python](https://github.com/snuuwal/2016_robotx_acoustic_pinger_based_transit/tree/master/python_ver) (to be updated...)
